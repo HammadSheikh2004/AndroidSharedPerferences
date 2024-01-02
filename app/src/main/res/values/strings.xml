@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shared Preference</string>
+    <string name="edittext_name"><font size="30">Enter Your Name.</font></string>
+    <string name="edittext_email"><font size="30">Enter Your Email.</font></string>
+</resources>

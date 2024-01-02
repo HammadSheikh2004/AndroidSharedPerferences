@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@drawable/signin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login Your Self"
+                android:layout_marginBottom="25dp"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="@color/dark_purple"/>
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edittext_name"
+                android:background="@color/purple"
+                android:textColorHint="@color/white"
+                android:padding="9dp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:layout_marginTop="-10dp"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edittext_email"
+                android:background="@color/purple"
+                android:textColorHint="@color/white"
+                android:padding="9dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Data"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:background="@color/dark_purple"
+                android:padding="9dp"
+                android:textColor="@color/white"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
